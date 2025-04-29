@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-    res.send('<h1>New CICD Test Version 4.9 28.04.2025 10:15 webhook</h1>');
+    res.send('<h1>New CICD Test Version 5.0 28.04.2025 10:51 webhook</h1>');
 });
 
 app.listen(PORT, () => {
